@@ -230,3 +230,7 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4330
 PRODUCT_COPY_FILES += \
         device/samsung/tuna/vold.fstab:system/etc/vold.fstab
 
+# Pimp My Rom
+PRODUCT_COPY_FILES += \
+        vendor/aosp/prebuilt/common/app/PimpMyRom.apk:system/app/PimpMyRom.apk
+
